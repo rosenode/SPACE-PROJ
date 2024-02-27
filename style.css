@@ -1,0 +1,63 @@
+#b1 {
+    background-color: rgb(67, 68, 82);
+}
+
+#LOGO {
+    height:40%;
+    border-color:black;
+    border-style: outset;
+    border-width: 10px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #40296f;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .card-body {
+    background-color: #534471;
+  }
+
+ .card-title {
+  color:white;
+}
+
+  .card-text {
+    color: white;
+  }
